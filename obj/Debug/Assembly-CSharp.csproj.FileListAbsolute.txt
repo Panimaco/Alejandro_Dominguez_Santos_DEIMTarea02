@@ -1,0 +1,6 @@
+C:\Users\ALEJANDRO\Repos\Alejandro_Dominguez_Santos_DEIMTarea02\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\ALEJANDRO\Repos\Alejandro_Dominguez_Santos_DEIMTarea02\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\ALEJANDRO\Repos\Alejandro_Dominguez_Santos_DEIMTarea02\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\ALEJANDRO\Repos\Alejandro_Dominguez_Santos_DEIMTarea02\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\ALEJANDRO\Repos\Alejandro_Dominguez_Santos_DEIMTarea02\obj\Debug\Assembly-CSharp.dll
+C:\Users\ALEJANDRO\Repos\Alejandro_Dominguez_Santos_DEIMTarea02\obj\Debug\Assembly-CSharp.pdb

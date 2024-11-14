@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{299CB371-84AF-BBF1-AD0C-95D8B061DB10}</ProjectGuid>
+    <ProjectGuid>{B2F5902D-57F7-BD0C-983E-6ABE0112B64C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,17 +60,19 @@
     <Analyzer Include="D:\UnityEditor\2022.3.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ud02\Ejercicio_2\Zombie_Scripts\ZombieSpawner.cs" />
     <Compile Include="Assets\Ejercicio\Supercyan Character Pack Zombie Sample\Scripts\ZombieCharacterControl.cs" />
     <Compile Include="Assets\Ejercicio\Supercyan Character Pack Animal People Sample\Scripts\FreeCameraLogic.cs" />
-    <Compile Include="Assets\Scripts\ud02\Ejercicio02\Zombie_Scripts\ZombieData.cs" />
-    <Compile Include="Assets\Scripts\ud02\Ejercicio02\Zombie_Scripts\ZombieSpawner.cs" />
-    <Compile Include="Assets\Scripts\ud02\Ejercicio02\Flowers_Scripts\FlowerDamage.cs" />
+    <Compile Include="Assets\Scripts\ud02\Ejercicio_2\Flowers_Scripts\FlowerSpawner.cs" />
     <Compile Include="Assets\Ejercicio\Supercyan Character Pack Animal People Sample\Scripts\AccessoryLogic.cs" />
     <Compile Include="Assets\Ejercicio\Supercyan Character Pack Zombie Sample\Scripts\ZombieFree.cs" />
+    <Compile Include="Assets\Scripts\ud02\Ejercicio_2\Player_Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Ejercicio\Supercyan Character Pack Animal People Sample\Scripts\AccessoryWearLogic.cs" />
+    <Compile Include="Assets\Scripts\ud02\Ejercicio_2\Flowers_Scripts\FlowerDamage.cs" />
+    <Compile Include="Assets\Scripts\ud02\Ejercicio_2\Zombie_Scripts\ZombieData.cs" />
+    <Compile Include="Assets\Scripts\ud02\Ejercicio_1\EggLauncher.cs" />
     <Compile Include="Assets\Ejercicio\Supercyan Character Pack Animal People Sample\Scripts\SimpleSampleCharacterControl.cs" />
-    <Compile Include="Assets\Scripts\ud02\Ejercicio02\Player_Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\ud02\Ejercicio02\Flowers_Scripts\FlowerSpawner.cs" />
+    <Compile Include="Assets\Scripts\ud02\Ejercicio_1\ChickenController.cs" />
     <Compile Include="Assets\Ejercicio\Supercyan Character Pack Zombie Sample\Scripts\ZombieCameraLogic.cs" />
     <Compile Include="Assets\Ejercicio\Supercyan Character Pack Animal People Sample\Scripts\DemoFree.cs" />
   </ItemGroup>

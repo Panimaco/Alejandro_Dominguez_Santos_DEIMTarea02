@@ -1,15 +1,8 @@
 fileFormatVersion: 2
-guid: 85fb7ee31c847b74fa91ed2e43ab856f
-timeCreated: 1444796736
-licenseType: Store
+guid: 51982714a2705e942ae402b32dc30bf0
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 47083
-  packageName: Lowpoly Flowers
-  packageVersion: 1.0
-  assetPath: Assets/Lowpoly Flowers/Materials/blinn15.mat
-  uploadId: 85571

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.40f1 (cbdda657d2f0) revision 13360550'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 49040 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'es' Physical Memory: 65424 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ D:\UnityEditor\2022.3.40f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ALEJANDRO/Repos/Alejandro_Dominguez_Santos_Tarea02
+C:/Users/ALEJANDRO/Repos/Alejandro_Dominguez_Santos_DEIMTarea02
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50348
-Successfully changed project path to: C:/Users/ALEJANDRO/Repos/Alejandro_Dominguez_Santos_Tarea02
-C:/Users/ALEJANDRO/Repos/Alejandro_Dominguez_Santos_Tarea02
+60698
+Successfully changed project path to: C:/Users/ALEJANDRO/Repos/Alejandro_Dominguez_Santos_DEIMTarea02
+C:/Users/ALEJANDRO/Repos/Alejandro_Dominguez_Santos_DEIMTarea02
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,76 +49,76 @@ C:/Users/ALEJANDRO/Repos/Alejandro_Dominguez_Santos_Tarea02
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1344]  Target information:
+Player connection [20936]  Target information:
 
-Player connection [1344]  * "[IP] 192.168.1.136 [Port] 0 [Flags] 2 [Guid] 3831911759 [EditorId] 3831911759 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HE2HA0K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20936]  * "[IP] 192.168.1.136 [Port] 0 [Flags] 2 [Guid] 2531751108 [EditorId] 2531751108 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HE2HA0K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [1344]  * "[IP] 10.244.126.167 [Port] 0 [Flags] 2 [Guid] 3831911759 [EditorId] 3831911759 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HE2HA0K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [20936]  * "[IP] 10.244.126.167 [Port] 0 [Flags] 2 [Guid] 2531751108 [EditorId] 2531751108 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HE2HA0K) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [1344] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [1344] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20936] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20936] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 6.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
 [Subsystems] Discovering subsystems at path D:/UnityEditor/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ALEJANDRO/Repos/Alejandro_Dominguez_Santos_Tarea02/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ALEJANDRO/Repos/Alejandro_Dominguez_Santos_DEIMTarea02/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
     Vendor:   NVIDIA
     VRAM:     7957 MB
-    Driver:   32.0.15.6603
+    Driver:   32.0.15.6614
 Initialize mono
 Mono path[0] = 'D:/UnityEditor/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityEditor/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityEditor/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityEditor/2022.3.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/UnityEditor/2022.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/UnityEditor/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/UnityEditor/2022.3.40f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004567 seconds.
-- Loaded All Assemblies, in  0.318 seconds
+Registered in 0.004991 seconds.
+- Loaded All Assemblies, in  0.294 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1740 ms
+Android Extension - Scanning For ADB Devices 198 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.015 seconds
-Domain Reload Profiling: 2334ms
-	BeginReloadAssembly (91ms)
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 803ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (141ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
 		LoadAssemblies (93ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (137ms)
-			TypeCache.Refresh (136ms)
-				TypeCache.ScanAssembly (122ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (109ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (2016ms)
+	FinalizeReload (509ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1976ms)
+		SetupLoadedEditorAssemblies (468ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1850ms)
+			InitializePlatformSupportModulesInManaged (300ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (89ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -127,7 +127,7 @@ Domain Reload Profiling: 2334ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.508 seconds
+- Loaded All Assemblies, in  0.545 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -137,307 +137,51 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.625 seconds
-Domain Reload Profiling: 1133ms
-	BeginReloadAssembly (140ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (298ms)
-		LoadAssemblies (232ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (120ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (626ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (498ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (398ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3103 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (54.7 KB). Loaded Objects now: 3573.
-Memory consumption went from 125.9 MB to 125.9 MB.
-Total: 2.658400 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.080800 ms MarkObjects: 2.299700 ms  DeleteObjects: 0.076300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1517.959588 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Animal People Sample/Prefabs/Player.prefab
-  artifactKey: Guid(1ee78bd83f02aa146b78b40b156da066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Animal People Sample/Prefabs/Player.prefab using Guid(1ee78bd83f02aa146b78b40b156da066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3e1307ed214d863343cc420e40c8c6fc') in 0.177741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1156
-========================================================================
-Received Import Request.
-  Time since last request: 465.926929 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement
-  artifactKey: Guid(611b6992a2d95884fba7bba1374440eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement using Guid(611b6992a2d95884fba7bba1374440eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cc93cbc690d86c9b7e1d53630bcdf1f1') in 0.002381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.123489 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Animal People Sample/Scenes
-  artifactKey: Guid(fcdc7809db518e44d9ee65209cc419a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Animal People Sample/Scenes using Guid(fcdc7809db518e44d9ee65209cc419a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '896cfefdd808f7e43e75562d614af0c4') in 0.001386 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.961951 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample
-  artifactKey: Guid(3d9429658e560004b99d224688533b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample using Guid(3d9429658e560004b99d224688533b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '96b81a1fb57210014c8ec5246017569b') in 0.001024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.183864 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Prefabs
-  artifactKey: Guid(32fcfbac277f4a9469bbe5363f81f911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Prefabs using Guid(32fcfbac277f4a9469bbe5363f81f911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f8b182ce52fd6aafc73ae0b41e74c404') in 0.002284 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.595589 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Prefabs/Base
-  artifactKey: Guid(ff96ec8e6bf101c4289d8e01213f420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Prefabs/Base using Guid(ff96ec8e6bf101c4289d8e01213f420b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '63aef4c96005da0ddbf37844c838d9b3') in 0.000550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.663845 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Models
-  artifactKey: Guid(e49518ac9f5dc65498ba5a8f8aa38300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Models using Guid(e49518ac9f5dc65498ba5a8f8aa38300) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e96475fcef19d1bb5b8ffd1eb5c9891d') in 0.001032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.518452 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Models/Character_Pack_Zombie_Sample.FBX
-  artifactKey: Guid(8c53cffd52097cf4582f0a090c9a833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Models/Character_Pack_Zombie_Sample.FBX using Guid(8c53cffd52097cf4582f0a090c9a833e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4344c5f03b38763c10d360d8a5cb0bad') in 0.067191 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 39.967880 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Textures
-  artifactKey: Guid(ad6093b3d8b93174fba7e575ca5ed627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Textures using Guid(ad6093b3d8b93174fba7e575ca5ed627) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '209730700680a98f94e65a62d177decb') in 0.002064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.072076 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Textures/free_zombie_body_diffuse.psd
-  artifactKey: Guid(07e331a1e9c6d9d4493d1e1b6996c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Textures/free_zombie_body_diffuse.psd using Guid(07e331a1e9c6d9d4493d1e1b6996c5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5463daa329f84ad48bb73a977fc97ee8') in 0.038668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 10.250086 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Materials
-  artifactKey: Guid(b23951217ab257b4bb9ca89398cfba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Materials using Guid(b23951217ab257b4bb9ca89398cfba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4261e2838cf9ffad75fbd03a97367962') in 0.001352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.540452 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Materials/High Quality
-  artifactKey: Guid(d621da3be77957a499b15680213f77c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Materials/High Quality using Guid(d621da3be77957a499b15680213f77c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6f04c655e693f6a4865bc8bcf33eb051') in 0.000608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.179585 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Materials/High Quality/free_zombie_body.mat
-  artifactKey: Guid(505c715e0fdb50f4fb8e906ce5e8d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Materials/High Quality/free_zombie_body.mat using Guid(505c715e0fdb50f4fb8e906ce5e8d288) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a73142e9e5ff9768720368aee70c161e') in 0.154918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 320.210548 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations
-  artifactKey: Guid(11ff4b2e21b8aa64aa52aafea4be4985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations using Guid(11ff4b2e21b8aa64aa52aafea4be4985) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dd97ff24fc2808321c052131e3ce2428') in 0.001792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.128892 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_attack.FBX
-  artifactKey: Guid(31c1a2a498086974eaa9d10c7f42d24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_attack.FBX using Guid(31c1a2a498086974eaa9d10c7f42d24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c8a7878cfe077655855e608f5e7fc464') in 0.006846 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 61
-========================================================================
-Received Import Request.
-  Time since last request: 0.007612 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_death_standing.FBX
-  artifactKey: Guid(ec13975053ac9b04ba71483c47d8eed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_death_standing.FBX using Guid(ec13975053ac9b04ba71483c47d8eed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1fd3d72f687ef75e7f6552aaca02d245') in 0.007929 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 61
-========================================================================
-Received Import Request.
-  Time since last request: 0.000884 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_idle.FBX
-  artifactKey: Guid(0aaab721d87c3d84daddd7c7a85d44fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_idle.FBX using Guid(0aaab721d87c3d84daddd7c7a85d44fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '82d41f734a3c5ea56feca767eb5ea0c3') in 0.004325 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 61
-========================================================================
-Received Import Request.
-  Time since last request: 0.011298 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_walk_backwards.FBX
-  artifactKey: Guid(170ca84ebfa7e0e42ba6f49d42cd0c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_walk_backwards.FBX using Guid(170ca84ebfa7e0e42ba6f49d42cd0c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ed6bedc7930238b50c9759e538ac8edc') in 0.004017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 61
-========================================================================
-Received Import Request.
-  Time since last request: 0.004938 seconds.
-  path: Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_walk_forward.FBX
-  artifactKey: Guid(834e65f16fa33e54da306a0c84cb2df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Animations/free_sample_zombie@zombie_walk_forward.FBX using Guid(834e65f16fa33e54da306a0c84cb2df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e87f13a460c00eafe1475894bfc9ce7e') in 0.008061 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 61
-========================================================================
-Received Import Request.
-  Time since last request: 6922.465679 seconds.
-  path: Assets/Scripts/ud02/Ejercicio02/ZombieData.cs
-  artifactKey: Guid(af09e9c09876fc849ac2c6e8f36af817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ud02/Ejercicio02/ZombieData.cs using Guid(af09e9c09876fc849ac2c6e8f36af817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '179e87b98fdd0d219b54d457a28a4658') in 0.000655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.401 seconds
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.958 seconds
-Domain Reload Profiling: 1359ms
-	BeginReloadAssembly (178ms)
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 1167ms
+	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
+		CreateAndSetChildDomain (17ms)
 	RebuildCommonClasses (32ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (159ms)
-		LoadAssemblies (237ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (281ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (959ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (623ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
+		SetupLoadedEditorAssemblies (498ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (439ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (387ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3624.
-Memory consumption went from 125.6 MB to 125.5 MB.
-Total: 2.750800 ms (FindLiveObjects: 0.237600 ms CreateObjectMapping: 0.123300 ms MarkObjects: 2.359500 ms  DeleteObjects: 0.029700 ms)
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (55.0 KB). Loaded Objects now: 3578.
+Memory consumption went from 126.1 MB to 126.1 MB.
+Total: 2.978800 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.102200 ms MarkObjects: 2.563900 ms  DeleteObjects: 0.087600 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/ZombieData.cs: 09ee7f4f6127185ccf7a8ec225d20726 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -449,32 +193,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: fd54aa396f30407b8d2a5445cbca0d88 -> fa2980c8cacf738008b3a02057d16866
 ========================================================================
 Received Import Request.
-  Time since last request: 25.829550 seconds.
-  path: Assets/Scripts/ud02/Ejercicio02/ZombieData.cs
-  artifactKey: Guid(af09e9c09876fc849ac2c6e8f36af817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ud02/Ejercicio02/ZombieData.cs using Guid(af09e9c09876fc849ac2c6e8f36af817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7d8917f223f7937277ec46e5172ce984') in 0.002359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 508.287206 seconds.
-  path: Assets/Scripts/ud02/Ejercicio02/ZombieData.cs
-  artifactKey: Guid(af09e9c09876fc849ac2c6e8f36af817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ud02/Ejercicio02/ZombieData.cs using Guid(af09e9c09876fc849ac2c6e8f36af817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bb9ef6a19ab6e9536e53297b6134059d') in 0.000936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 179.714381 seconds.
-  path: Assets/Scripts/ud02/Ejercicio02/ZombieData.cs
-  artifactKey: Guid(af09e9c09876fc849ac2c6e8f36af817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ud02/Ejercicio02/ZombieData.cs using Guid(af09e9c09876fc849ac2c6e8f36af817) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e0203cb229c26ec395f0b1f5b0dbd1f8') in 0.000761 seconds
+  Time since last request: 72729.288535 seconds.
+  path: Assets/Scripts/ud02/Ejercicio_2/Zombie_Scripts/ZombieSpawner.cs
+  artifactKey: Guid(5921bd9defd29564c886c9f28c116c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ud02/Ejercicio_2/Zombie_Scripts/ZombieSpawner.cs using Guid(5921bd9defd29564c886c9f28c116c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e99b13c705fddde899bea5a67c91511d') in 0.003515 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
@@ -486,216 +211,3 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.816 seconds
-Domain Reload Profiling: 1177ms
-	BeginReloadAssembly (131ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (213ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (817ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (441ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (356ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 4.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3627.
-Memory consumption went from 125.6 MB to 125.5 MB.
-Total: 2.556100 ms (FindLiveObjects: 0.200700 ms CreateObjectMapping: 0.084100 ms MarkObjects: 2.238700 ms  DeleteObjects: 0.031500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/ZombieData.cs: 09ee7f4f6127185ccf7a8ec225d20726 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: fd54aa396f30407b8d2a5445cbca0d88 -> fa2980c8cacf738008b3a02057d16866
-========================================================================
-Received Import Request.
-  Time since last request: 2027.538012 seconds.
-  path: Assets/Scripts/ud02/Ejercicio02/PlayerAttack.cs
-  artifactKey: Guid(c1a5517d84f8e274a9047954e68369d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ud02/Ejercicio02/PlayerAttack.cs using Guid(c1a5517d84f8e274a9047954e68369d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cc2a926e69f2a9b3c9aab1d687450ddd') in 0.010155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.403 seconds
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.948 seconds
-Domain Reload Profiling: 1350ms
-	BeginReloadAssembly (146ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (172ms)
-		LoadAssemblies (241ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (949ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (511ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (414ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3630.
-Memory consumption went from 125.6 MB to 125.5 MB.
-Total: 2.607300 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.082200 ms MarkObjects: 2.288700 ms  DeleteObjects: 0.029900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/ZombieData.cs: 09ee7f4f6127185ccf7a8ec225d20726 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: fd54aa396f30407b8d2a5445cbca0d88 -> fa2980c8cacf738008b3a02057d16866
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.394 seconds
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.910 seconds
-Domain Reload Profiling: 1303ms
-	BeginReloadAssembly (139ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (190ms)
-		LoadAssemblies (261ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (911ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (510ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (416ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 2.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3633.
-Memory consumption went from 125.6 MB to 125.5 MB.
-Total: 2.618300 ms (FindLiveObjects: 0.211900 ms CreateObjectMapping: 0.084200 ms MarkObjects: 2.279000 ms  DeleteObjects: 0.042400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/ZombieData.cs: 09ee7f4f6127185ccf7a8ec225d20726 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: fd54aa396f30407b8d2a5445cbca0d88 -> fa2980c8cacf738008b3a02057d16866

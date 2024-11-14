@@ -364,11 +364,13 @@
 "Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Scripts/ZombieCameraLogic.cs"
 "Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Scripts/ZombieCharacterControl.cs"
 "Assets/Ejercicio/Supercyan Character Pack Zombie Sample/Scripts/ZombieFree.cs"
-"Assets/Scripts/ud02/Ejercicio02/Flowers_Scripts/FlowerDamage.cs"
-"Assets/Scripts/ud02/Ejercicio02/Flowers_Scripts/FlowerSpawner.cs"
-"Assets/Scripts/ud02/Ejercicio02/Player_Scripts/PlayerMovement.cs"
-"Assets/Scripts/ud02/Ejercicio02/Zombie_Scripts/ZombieData.cs"
-"Assets/Scripts/ud02/Ejercicio02/Zombie_Scripts/ZombieSpawner.cs"
+"Assets/Scripts/ud02/Ejercicio_1/ChickenController.cs"
+"Assets/Scripts/ud02/Ejercicio_1/EggLauncher.cs"
+"Assets/Scripts/ud02/Ejercicio_2/Flowers_Scripts/FlowerDamage.cs"
+"Assets/Scripts/ud02/Ejercicio_2/Flowers_Scripts/FlowerSpawner.cs"
+"Assets/Scripts/ud02/Ejercicio_2/Player_Scripts/PlayerMovement.cs"
+"Assets/Scripts/ud02/Ejercicio_2/Zombie_Scripts/ZombieData.cs"
+"Assets/Scripts/ud02/Ejercicio_2/Zombie_Scripts/ZombieSpawner.cs"
 -langversion:9.0
 /deterministic
 /optimize+
