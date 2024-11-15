@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ud02/Eggs.unity
+- path: Assets/Scenes/ud02/Flowers.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
