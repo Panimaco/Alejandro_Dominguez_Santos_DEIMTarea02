@@ -60,7 +60,7 @@ public class ZombieSpawner : MonoBehaviour
         
         float _angleInRadians = _angle * Mathf.Deg2Rad,                 //Convierte el ángulo a radiantes
               _offsetX = Mathf.Cos(_angleInRadians) * _spawnRadius,     //Posición del "círculo" en x
-              _offsetZ = Mathf.Sin(_angleInRadians) * _spawnRadius;     //Posición del "círculo" en y
+              _offsetZ = Mathf.Sin(_angleInRadians) * _spawnRadius;     //Posición del "círculo" en z
 
         //Establece la posición de spawn
         Vector3 _spawnPosition = new Vector3(
@@ -68,8 +68,10 @@ public class ZombieSpawner : MonoBehaviour
             _playerTransform.position.x + _offsetX,
             _playerTransform.position.y,
             _playerTransform.position.z + _offsetZ
+            
             );
 
+        //Si el personaje está saltando no le importa al spawner de zombies
         if (_playerTransform.position.y > 0) 
         {
 
