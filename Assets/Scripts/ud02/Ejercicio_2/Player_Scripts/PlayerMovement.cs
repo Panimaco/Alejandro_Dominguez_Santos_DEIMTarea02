@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
                   _playerTurnSpeed;     //Velocidad de Rotación del Muñeco
     private float _horizontal,          //Imput de eje Horizontal
                   _vertical;            //Imput de eje Vertical
+    private bool _run;
 
     [SerializeField]
     private Rigidbody _rb;              //Rigidbody del Muñeco para el salto
@@ -20,10 +21,12 @@ public class PlayerMovement : MonoBehaviour
     [Header("Animation")]
     [SerializeField]
     private Animator _anim;
-    private bool _isPlayerJumping,
-                 _isOnGround,
+    private bool _isOnGround,
                  _isCapableOfMove;
+    [Header("Rayo")]
     private Ray _ray;
+    [SerializeField]
+    private float _rayDistance;
 
     void Update()
     {
@@ -34,7 +37,9 @@ public class PlayerMovement : MonoBehaviour
         GetTurn();                                  //Rotación del jugador
         Move();                                     //Animación de movimiento
         Jump();                                     //Animación de saltar
+        Run();                                      //Correr
 
+        Debug.Log(_run);
     }
 
 
@@ -61,29 +66,57 @@ public class PlayerMovement : MonoBehaviour
         _ray.origin = transform.position;
         _ray.direction = -transform.up;
 
-        Debug.DrawRay(_ray.origin, _ray.direction * 0.01f, Color.red);
+        Debug.DrawRay(_ray.origin, _ray.direction * _rayDistance, Color.red);
 
         if (Physics.Raycast(_ray)) {
-
-            _isOnGround = true;
-
-        }
-        else {
 
             _isOnGround = false;
 
         }
-        if (_isPlayerJumping && _isOnGround) {
+        else 
+        {
 
-            _anim.SetTrigger("IsJumping");
+            _isOnGround = true;
+        
+        }
+        if (!_isOnGround) {
+
+            _anim.SetBool("IsJumping", true);
 
         }
+        else
+        {
+        
+            _anim.SetBool("IsJumping", false);
+        
+        }
+    }
+    private void Run() 
+    {
+
+        if (_run && _vertical > 0) 
+        {
+
+            _anim.SetBool("IsRunning", true);
+            _playerMoveSpeed = 3f;
+            transform.Translate(Vector3.forward * _playerMoveSpeed * _vertical * Time.deltaTime);
+
+        }
+        else 
+        { 
+        
+            _anim.SetBool("IsRunning", false);
+            _playerMoveSpeed = 2f;
+
+        }
+    
     }
     private void ImputPlayer() 
     {
 
         _horizontal = Input.GetAxis("Horizontal");  //Atribución de teclas del eje Horizontal
         _vertical = Input.GetAxis("Vertical");      //Atribución de teclas del eje Vertical
+        _run = Input.GetKey(KeyCode.LeftShift);
 
     }
     private void GetMovement() 
@@ -99,19 +132,14 @@ public class PlayerMovement : MonoBehaviour
     private void GetJump() 
     {
 
-        //Si pulsas la barra espaciadora
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        //Si pulsas la barra espaciadora y estas en el suelo
+        if (Input.GetKeyDown(KeyCode.Space) && _isOnGround) 
+        {
+
             //Se le atribuye una fuerza al salto ya definida
             _rb.AddForce(Vector3.up * _playerJumpForce);
 
-            _isPlayerJumping = true;
         }
-
-        else 
-        {
-            _isPlayerJumping = false;
-        }
-
     }
     private void GetTurn() 
     {

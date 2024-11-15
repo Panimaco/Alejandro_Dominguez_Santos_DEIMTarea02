@@ -453,6 +453,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 603043589005450808, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
+      propertyPath: _upForce
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 1712395020057689421, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
       propertyPath: m_Name
       value: PlayerController
@@ -460,6 +464,18 @@ PrefabInstance:
     - target: {fileID: 5148367679404324182, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404121345507947817, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
+      propertyPath: _rayDistance
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404121345507947817, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
+      propertyPath: _playerMoveSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404121345507947817, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
+      propertyPath: _playerTurnSpeed
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8190514130244497541, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
       propertyPath: m_LocalPosition.x

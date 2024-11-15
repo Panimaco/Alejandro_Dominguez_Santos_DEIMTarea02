@@ -44,8 +44,14 @@ public class FlowerSpawner : MonoBehaviour
 
         if (_isFlowerLaunching) {
 
-            _anim.SetTrigger("IsAttacking");
+            _anim.SetBool("IsAttacking", true);
 
+        }
+        else 
+        { 
+        
+            _anim.SetBool("IsAttacking", false);
+        
         }
     
     }
