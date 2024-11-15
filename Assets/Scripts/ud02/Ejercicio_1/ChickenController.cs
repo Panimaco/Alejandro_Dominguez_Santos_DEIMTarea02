@@ -86,11 +86,4 @@ public class NewBehaviourScript : MonoBehaviour
         }
     
     }
-
-    private void Animations() 
-    {
-
-
-
-    }
 }

@@ -32,12 +32,7 @@ public class PlayerMovement : MonoBehaviour
         GetMovement();                              //Movimiento del jugador
         GetJump();                                  //Salto del jugador
         GetTurn();                                  //Rotación del jugador
-
-        if (_isCapableOfMove) 
-        {
-            Move();                                 //Animación de movimiento
-        }
-
+        Move();                                     //Animación de movimiento
         Jump();                                     //Animación de saltar
 
     }
@@ -46,10 +41,18 @@ public class PlayerMovement : MonoBehaviour
     private void Move() 
     {
 
-        if (_horizontal != 0 || _vertical != 0) {
+        if (_horizontal != 0 || _vertical != 0)
+        {
 
-            _anim.SetTrigger("IsMoving");
+            _anim.SetBool("IsMoving", true);
 
+        }
+
+        else 
+        { 
+        
+            _anim.SetBool("IsMoving", false);
+        
         }
 
     }
@@ -73,17 +76,8 @@ public class PlayerMovement : MonoBehaviour
         if (_isPlayerJumping && _isOnGround) {
 
             _anim.SetTrigger("IsJumping");
-            _isCapableOfMove = false;
 
         }
-
-        else 
-        {
-
-            _isCapableOfMove = true;
-
-        }
-
     }
     private void ImputPlayer() 
     {
