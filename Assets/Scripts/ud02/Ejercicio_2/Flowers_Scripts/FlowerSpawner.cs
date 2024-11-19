@@ -42,14 +42,19 @@ public class FlowerSpawner : MonoBehaviour
     private void LauchFlowers() 
     {
 
+        //Si se está lanzando
         if (_isFlowerLaunching) {
 
+            //Se activa la animación de atacar
             _anim.SetBool("IsAttacking", true);
 
         }
+
+        //Sinó
         else 
         { 
-        
+            
+            //Se desactiva la animación de atacar
             _anim.SetBool("IsAttacking", false);
         
         }
@@ -90,9 +95,12 @@ public class FlowerSpawner : MonoBehaviour
             Destroy(_cloneFlower, _timeFlower);
 
         }
+
+        //Sinó
         else 
         { 
-        
+            
+            //No se está lanzando
             _isFlowerLaunching = false;
         
         }

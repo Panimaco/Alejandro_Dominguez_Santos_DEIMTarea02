@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class ZombieData : MonoBehaviour {
     [SerializeField]
-    private int _maxLife = 2,          //Vida máxima del zombie
-                _currentLife;          //Vida actual del zombie
+    private int _maxLife = 2,
+                _currentLife;
 
     [SerializeField]
-    private static int _zombieCount = 0; //Contador de zombies muertos
+    private static int _zombieCount = 0;
 
     private void Start() 
     {
@@ -17,6 +17,8 @@ public class ZombieData : MonoBehaviour {
         _currentLife = _maxLife;
 
     }
+
+    //Void público al que llama el script de las flores
     public void TakeDamage(int damage) 
     {
         

@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ALEJANDRO\\Repos\\Alejandro_Dominguez_Santos_DEIMTarea02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2F5902D-57F7-BD0C-983E-6ABE0112B64C}|Assembly-CSharp.csproj|c:\\users\\alejandro\\repos\\alejandro_dominguez_santos_deimtarea02\\assets\\scripts\\ud02\\ejercicio_2\\zombie_scripts\\zombiespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2F5902D-57F7-BD0C-983E-6ABE0112B64C}|Assembly-CSharp.csproj|C:\\Users\\ALEJANDRO\\Repos\\Alejandro_Dominguez_Santos_DEIMTarea02\\assets\\scripts\\ud02\\ejercicio_2\\zombie_scripts\\zombiespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2F5902D-57F7-BD0C-983E-6ABE0112B64C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ud02\\ejercicio_2\\zombie_scripts\\zombiespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2F5902D-57F7-BD0C-983E-6ABE0112B64C}|Assembly-CSharp.csproj|c:\\users\\alejandro\\repos\\alejandro_dominguez_santos_deimtarea02\\assets\\scripts\\ud02\\ejercicio_1\\egglauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2F5902D-57F7-BD0C-983E-6ABE0112B64C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ud02\\ejercicio_1\\egglauncher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2F5902D-57F7-BD0C-983E-6ABE0112B64C}|Assembly-CSharp.csproj|C:\\Users\\ALEJANDRO\\Repos\\Alejandro_Dominguez_Santos_DEIMTarea02\\assets\\scripts\\ud02\\ejercicio_2\\player_scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2F5902D-57F7-BD0C-983E-6ABE0112B64C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ud02\\ejercicio_2\\player_scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,35 +24,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ud02\\Ejercicio_2\\Zombie_Scripts\\ZombieSpawner.cs",
               "ToolTip": "C:\\Users\\ALEJANDRO\\Repos\\Alejandro_Dominguez_Santos_DEIMTarea02\\Assets\\Scripts\\ud02\\Ejercicio_2\\Zombie_Scripts\\ZombieSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\ud02\\Ejercicio_2\\Zombie_Scripts\\ZombieSpawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowBYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T10:25:08.857Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EggLauncher.cs",
-              "DocumentMoniker": "C:\\Users\\ALEJANDRO\\Repos\\Alejandro_Dominguez_Santos_DEIMTarea02\\Assets\\Scripts\\ud02\\Ejercicio_1\\EggLauncher.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ud02\\Ejercicio_1\\EggLauncher.cs",
-              "ToolTip": "C:\\Users\\ALEJANDRO\\Repos\\Alejandro_Dominguez_Santos_DEIMTarea02\\Assets\\Scripts\\ud02\\Ejercicio_1\\EggLauncher.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ud02\\Ejercicio_1\\EggLauncher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T20:07:52.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\ALEJANDRO\\Repos\\Alejandro_Dominguez_Santos_DEIMTarea02\\Assets\\Scripts\\ud02\\Ejercicio_2\\Player_Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ud02\\Ejercicio_2\\Player_Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\ALEJANDRO\\Repos\\Alejandro_Dominguez_Santos_DEIMTarea02\\Assets\\Scripts\\ud02\\Ejercicio_2\\Player_Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ud02\\Ejercicio_2\\Player_Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAwwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T17:23:33.387Z"
             }
           ]
         }

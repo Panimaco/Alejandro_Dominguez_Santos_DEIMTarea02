@@ -182,6 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _zombiePrefab: {fileID: 7779383665992049882, guid: 3f279e494db74264bbee6dfe6d79efce, type: 3}
+  _playerObject: {fileID: 864220700}
   _spawnTime: 3
   _timer: 0
   _spawnRadius: 5
@@ -445,6 +446,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &864220700 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1712395020057689421, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
+  m_PrefabInstance: {fileID: 88030386313475947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &88030386313475947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -476,6 +482,30 @@ PrefabInstance:
     - target: {fileID: 7404121345507947817, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
       propertyPath: _playerTurnSpeed
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718597555182669283, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.018
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718597555182669283, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.913
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718597555182669283, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.351
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718597555182669283, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.969208
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718597555182669283, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.24624364
+      objectReference: {fileID: 0}
+    - target: {fileID: 7718597555182669283, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 28.511
       objectReference: {fileID: 0}
     - target: {fileID: 8190514130244497541, guid: 6aa5a03fe2f397b4d95a8e115411ce47, type: 3}
       propertyPath: m_LocalPosition.x

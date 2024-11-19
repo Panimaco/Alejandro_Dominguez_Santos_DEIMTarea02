@@ -7,25 +7,23 @@ public class ZombieSpawner : MonoBehaviour
 
     //Zona de Variables Globales
     [SerializeField]
-    private GameObject _zombiePrefab;   //Prefab del zombie a clonar
+    private GameObject _zombiePrefab,
+                       _playerObject;
 
     [SerializeField]
-    private float _spawnTime = 3.0f,    //Intervalo de tiempo entre cada aparición de zombie
-                  _timer,               //Temporizador
-                  _spawnRadius = 10.0f, //Radio de Spawneo de Zombies
-                  _angle = 0.0f;        //Ángulo de Spawneo
+    private float _spawnTime = 3.0f,
+                  _timer,
+                  _spawnRadius = 10.0f,
+                  _angle = 0.0f;
 
     [SerializeField]
-    private Transform _playerTransform; //Componente Transform del Jugador
+    private Transform _playerTransform;
 
     [SerializeField]
-    public static int ZombieCount = 1;  //Cantidad "estática" de Zombies eliminados
+    public static int ZombieCount = 1;
 
     private void Update() 
     {
-
-        //Busca un GameObject con la etiqueta de "Player"
-        GameObject _playerObject = GameObject.FindWithTag("Player");
 
         //Convierte el "_playerTransform" en el "transform" del "Player"
         _playerTransform = _playerObject.transform;
@@ -36,6 +34,7 @@ public class ZombieSpawner : MonoBehaviour
         // Si el tiempo de espera ha pasado, genera un nuevo zombie
         if (_timer >= _spawnTime && ZombieCount <= 5)
         {
+
             _timer = 0.0f;
             SpawnZombie();
             ZombieCount++;
@@ -58,9 +57,12 @@ public class ZombieSpawner : MonoBehaviour
         
         }
         
-        float _angleInRadians = _angle * Mathf.Deg2Rad,                 //Convierte el ángulo a radiantes
-              _offsetX = Mathf.Cos(_angleInRadians) * _spawnRadius,     //Posición del "círculo" en x
-              _offsetZ = Mathf.Sin(_angleInRadians) * _spawnRadius;     //Posición del "círculo" en z
+        //Convierte los angulos en radianes
+        float _angleInRadians = _angle * Mathf.Deg2Rad,
+              //Posición del circulo en x
+              _offsetX = Mathf.Cos(_angleInRadians) * _spawnRadius,
+              //Posición del circulo en z
+              _offsetZ = Mathf.Sin(_angleInRadians) * _spawnRadius;
 
         //Establece la posición de spawn
         Vector3 _spawnPosition = new Vector3(

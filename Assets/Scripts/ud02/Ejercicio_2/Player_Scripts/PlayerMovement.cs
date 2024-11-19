@@ -8,20 +8,20 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement")]
     //Zona de Variables Globales
     [SerializeField]
-    private float _playerMoveSpeed,     //Velocidad de Movimiento del Muñeco
-                  _playerJumpForce,     //Fuerza de Salto del Muñeco
-                  _playerTurnSpeed;     //Velocidad de Rotación del Muñeco
-    private float _horizontal,          //Imput de eje Horizontal
-                  _vertical;            //Imput de eje Vertical
+    private float _playerMoveSpeed,
+                  _playerJumpForce,
+                  _playerTurnSpeed;
+    private float _horizontal,
+                  _vertical;
     private bool _run;
 
     [SerializeField]
-    private Rigidbody _rb;              //Rigidbody del Muñeco para el salto
+    private Rigidbody _rb;
 
     [Header("Animation")]
     [SerializeField]
     private Animator _anim;
-    private bool _isOnGround,
+    private bool _isOnAir,
                  _isCapableOfMove;
     [Header("Rayo")]
     private Ray _ray;
@@ -31,31 +31,41 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
-        ImputPlayer();                              //Imputs del jugador
-        GetMovement();                              //Movimiento del jugador
-        GetJump();                                  //Salto del jugador
-        GetTurn();                                  //Rotación del jugador
-        Move();                                     //Animación de movimiento
-        Jump();                                     //Animación de saltar
-        Run();                                      //Correr
+        //Imputs del jugador
+        ImputPlayer();
+        //Movimiento del jugador
+        GetMovement();
+        //Salto del jugador
+        GetJump();
+        //Rotación del jugador
+        GetTurn();
+        //Animación de movimiento
+        Move();
+        //Animación de saltar
+        Jump();
+        //Correr
+        Run();
 
-        Debug.Log(_run);
     }
 
 
     private void Move() 
     {
 
+        //Si se está moviendo en cualquier dirección
         if (_horizontal != 0 || _vertical != 0)
         {
 
+            //Se activa la animación de andar
             _anim.SetBool("IsMoving", true);
 
         }
 
+        //Sinó
         else 
-        { 
-        
+        {
+
+            //Se desactiva la animación de andar
             _anim.SetBool("IsMoving", false);
         
         }
@@ -63,30 +73,42 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Jump() {
 
+        //Origen del ray
         _ray.origin = transform.position;
+        //Dirección del ray
         _ray.direction = -transform.up;
 
+        //Se dibuja el ray
         Debug.DrawRay(_ray.origin, _ray.direction * _rayDistance, Color.red);
 
+        //Si el ray colisiona
         if (Physics.Raycast(_ray)) {
 
-            _isOnGround = false;
+            //No está en el aire
+            _isOnAir = false;
 
         }
+
+        //Sinó
         else 
         {
 
-            _isOnGround = true;
+            //Está en el aire
+            _isOnAir = true;
         
         }
-        if (!_isOnGround) {
 
+        //Si no está en el aire
+        if (!_isOnAir) {
+
+            //Activa la animación de salto
             _anim.SetBool("IsJumping", true);
 
         }
         else
         {
         
+            //Desactiva la animación de salto
             _anim.SetBool("IsJumping", false);
         
         }
@@ -94,18 +116,25 @@ public class PlayerMovement : MonoBehaviour
     private void Run() 
     {
 
+        //Si está corriendo y el movimiento es mayor a 0
         if (_run && _vertical > 0) 
         {
 
+            //Activa la animación de correr
             _anim.SetBool("IsRunning", true);
+            //Aumenta la velocidad
             _playerMoveSpeed = 3f;
+            //Mueve al personaje
             transform.Translate(Vector3.forward * _playerMoveSpeed * _vertical * Time.deltaTime);
 
         }
+        //Sinó
         else 
         { 
         
+            //Desactiva la animación de correr
             _anim.SetBool("IsRunning", false);
+            //Reestablece la velocidad normal
             _playerMoveSpeed = 2f;
 
         }
@@ -114,8 +143,9 @@ public class PlayerMovement : MonoBehaviour
     private void ImputPlayer() 
     {
 
-        _horizontal = Input.GetAxis("Horizontal");  //Atribución de teclas del eje Horizontal
-        _vertical = Input.GetAxis("Vertical");      //Atribución de teclas del eje Vertical
+        //Establece los Inputs de los "GetAxis" y del "Shift"
+        _horizontal = Input.GetAxis("Horizontal");
+        _vertical = Input.GetAxis("Vertical");
         _run = Input.GetKey(KeyCode.LeftShift);
 
     }
@@ -133,7 +163,7 @@ public class PlayerMovement : MonoBehaviour
     {
 
         //Si pulsas la barra espaciadora y estas en el suelo
-        if (Input.GetKeyDown(KeyCode.Space) && _isOnGround) 
+        if (Input.GetKeyDown(KeyCode.Space) && _isOnAir) 
         {
 
             //Se le atribuye una fuerza al salto ya definida
