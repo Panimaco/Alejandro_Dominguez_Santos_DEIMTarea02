@@ -174,14 +174,8 @@ public class PlayerMovement : MonoBehaviour
     private void GetTurn() 
     {
 
-        //Cantidad de "rotatción" a atribuir
-        float _rotationAmount = _horizontal * _playerTurnSpeed * Time.deltaTime;
-
-        // Crea la rotación alrededor del eje Y del propio objeto (su pivote)
-        Quaternion _deltaRotation = Quaternion.Euler(0, _rotationAmount, 0);
-
-        // Aplica la rotación al Rigidbody, asegurando que gire sobre su propio pivote
-        _rb.MoveRotation(_rb.rotation * _deltaRotation);
+        //Rotar el jugador por transform
+        transform.Rotate(Vector3.up * _horizontal * _playerTurnSpeed * Time.deltaTime);
         
     }
 }
